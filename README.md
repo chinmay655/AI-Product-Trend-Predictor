@@ -49,7 +49,7 @@ Backend:
 
 Installation
 Clone the Repository
-git clone https://github.com/yourusername/ai-product-trend-predictor.git
+git clone https://github.com/chinmay655/AI-Product-Trend-Predictor.git
 cd ai-product-trend-predictor
 
 Backend Setup (Flask)
