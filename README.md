@@ -1,32 +1,3 @@
-
-AI Product Trend Predictor (Demo)
-================================
-
-Structure
-- backend/: Flask API (dummy predictions)
-- frontend/: React + Tailwind dashboard
-
-Quick start (backend)
----------------------
-1. cd backend
-2. python3 -m venv venv
-3. source venv/bin/activate   (Linux/Mac) or venv\Scripts\activate (Windows)
-4. pip install -r requirements.txt
-5. python app.py
-Flask server will run on http://localhost:5000
-
-Quick start (frontend)
-----------------------
-1. cd frontend
-2. npm install
-3. npm start
-The React dev server runs on http://localhost:3000
-You may need to set REACT_APP_API_BASE to http://localhost:5000 if different.
-
-Notes
-- This is a demo project with dummy predictions. Replace the backend logic with your trained model and data processing.
-
-
 🌟 AI Product Trend Predictor
 🧠 Overview
 
@@ -84,6 +55,30 @@ cd ai-product-trend-predictor
 Backend Setup (Flask)
 cd backend
 pip install -r requirements.txt
+
+AI Product Trend Predictor 
+================================
+
+Structure
+- backend/: Flask API
+- frontend/: React + Tailwind dashboard
+
+Quick start (backend)
+---------------------
+1. cd backend
+2. python3 -m venv venv
+3. source venv/bin/activate   (Linux/Mac) or venv\Scripts\activate (Windows)
+4. pip install -r requirements.txt
+5. python app.py
+Flask server will run on http://localhost:5000
+
+Quick start (frontend)
+----------------------
+1. cd frontend
+2. npm install
+3. npm start
+The React dev server runs on http://localhost:3000
+You may need to set REACT_APP_API_BASE to http://localhost:5000 if different.
 
 
 Project Structure:
