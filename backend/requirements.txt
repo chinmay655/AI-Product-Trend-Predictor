@@ -8,10 +8,8 @@ joblib==1.3.2
 textblob
 
 
-for the fronted:
  cd "E:\wroking PROJECTS\ML Projects\AI-product-trend-predictor\frontend"
  npm start
 
-for backend:
  cd backend
  python app.py
